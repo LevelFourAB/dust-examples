@@ -5,7 +5,10 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
 
+import se.l4.dust.api.annotation.Template;
+
 @Path("/")
+@Template
 public class TestPage
 {
 	private String name;

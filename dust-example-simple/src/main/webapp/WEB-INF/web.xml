@@ -1,0 +1,17 @@
+<web-app>
+	<display-name>Dust Example: Simple</display-name>
+
+	<filter>
+		<filter-name>dust</filter-name>
+		<filter-class>se.l4.dust.jaxrs.DustFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>dust</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<listener>
+		<listener-class>se.l4.dust.example.simple.SimpleBootstrap</listener-class>
+	</listener>
+</web-app>  

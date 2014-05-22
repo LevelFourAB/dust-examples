@@ -5,6 +5,8 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
 
+import se.l4.dust.api.annotation.Template;
+
 /**
  * Example page that can be accessed from the root of the server. Takes an
  * optional query parameter with a name ({@code ?name=Test}).
@@ -13,6 +15,7 @@ import javax.ws.rs.QueryParam;
  *
  */
 @Path("/")
+@Template
 public class ExamplePage
 {
 	private String name;

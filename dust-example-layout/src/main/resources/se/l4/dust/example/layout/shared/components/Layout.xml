@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:d="dust:common">
+	<head>
+		<title>${title}</title>
+	</head>
+	<body>
+		<p>Before content</p>
+		
+		<d:body />
+		
+		<p>After content</p>
+	</body>
+</html>

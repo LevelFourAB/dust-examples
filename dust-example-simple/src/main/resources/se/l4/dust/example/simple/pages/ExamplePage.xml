@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:d="dust:common">
+	<head>
+		<title>Hello ${name}</title>
+	</head>
+	<body>
+		<h1>Hello ${name}</h1>
+		
+		<d:if test="${name != 'Test'}">
+			Your name is not Test.
+		</d:if>
+	</body>
+</html>

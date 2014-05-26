@@ -1,7 +1,7 @@
 package se.l4.dust.example.simple;
 
 import se.l4.crayon.Configurator;
-import se.l4.dust.jaxrs.AppBootstrap;
+import se.l4.dust.servlet.AppBootstrap;
 
 public class SimpleBootstrap
 	extends AppBootstrap

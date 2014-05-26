@@ -1,8 +1,8 @@
 package se.l4.dust.example.simple;
 
 import se.l4.crayon.CrayonModule;
-import se.l4.dust.api.NamespaceManager;
-import se.l4.dust.api.annotation.NamespaceBinding;
+import se.l4.dust.api.NamespaceBinding;
+import se.l4.dust.api.Namespaces;
 import se.l4.dust.jaxrs.resteasy.ResteasyModule;
 
 /**
@@ -23,7 +23,7 @@ public class SimpleModule
 	}
 	
 	@NamespaceBinding
-	public void bindNamespace(NamespaceManager manager)
+	public void bindNamespace(Namespaces manager)
 	{
 		manager.bind(NAMESPACE).add();
 	}

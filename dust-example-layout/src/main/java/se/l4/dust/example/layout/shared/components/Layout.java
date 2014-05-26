@@ -1,8 +1,8 @@
 package se.l4.dust.example.layout.shared.components;
 
-import se.l4.dust.api.annotation.Component;
-import se.l4.dust.api.annotation.PrepareRender;
-import se.l4.dust.api.annotation.TemplateParam;
+import se.l4.dust.api.template.Component;
+import se.l4.dust.api.template.PrepareRender;
+import se.l4.dust.api.template.TemplateParam;
 
 /**
  * Component that renders the layout.

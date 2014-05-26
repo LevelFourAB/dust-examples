@@ -5,7 +5,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
 
-import se.l4.dust.api.annotation.Template;
+import se.l4.dust.api.template.Template;
 
 @Path("/")
 @Template

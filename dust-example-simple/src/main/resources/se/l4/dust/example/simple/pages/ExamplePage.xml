@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:d="dust:common">
+<html xmlns:d="dust:common" xmlns:param="dust:parameter">
 	<head>
 		<title>Hello ${name}</title>
 	</head>
@@ -8,6 +8,10 @@
 		
 		<d:if test="${name != 'Test'}">
 			Your name is not Test.
+			
+			<param:else>
+				Your name is Test!
+			</param:else>
 		</d:if>
 	</body>
 </html>

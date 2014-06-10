@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:d="dust:common" xmlns:param="dust:parameter">
+<html xmlns:d="dust:common" xmlns:param="dust:parameters">
 	<head>
 		<title>Hello ${name}</title>
 	</head>
